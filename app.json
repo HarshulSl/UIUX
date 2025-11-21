@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "needify",
+    "slug": "needify",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.needify",
+      "versionCode": 1,
+      "googleServicesFile": "./android/app/google-services.json",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.needify",
+      "buildNumber": "1.0.0",
+      "googleServicesFile": "./ios/GoogleService-Info.plist",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app needs access to your camera to take photos for gigs.",
+        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to upload images for gigs."
+      }
+    },
+    "plugins": [
+      "expo-secure-store"
+    ]
+  }
+}

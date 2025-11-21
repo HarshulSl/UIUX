@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "154427311113",
+    "project_id": "needify-80a03",
+    "storage_bucket": "needify-80a03.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154427311113:android:ca2d6e357ca510f90ce4d8",
+        "android_client_info": {
+          "package_name": "com.needify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLoZIvhD0WhrG-5sz1HvX4dCBFsULivUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
